@@ -23,8 +23,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%; 
-  width: 100%; 
+  width: 100%;
   margin: auto;
+  margin-top: 65px;
 }
 
 .header-container {
@@ -32,6 +33,11 @@ body {
   background-color: #F2F2F2;
   width: 79.5%;
   padding: 0.25em;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
 }
 
 .logo-carrefour {
@@ -291,6 +297,7 @@ footer {
   flex-direction: column;
   background-color: #F2F2F2;
   width: 79.5%;
+  margin-top: 1px;
   padding: 0.25em;
 }
 
