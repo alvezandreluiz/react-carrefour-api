@@ -4,6 +4,11 @@ import CarrinhoDeCompras from '../imgs/cart.svg';
 
 const Header = ({ cartCount, cartItems, setCartCount, setCartItems }) => {
   const handleCartClick = () => {
+    if (cartItems.length === 0) {
+      alert("Seu carrinho está vazio!");
+      return;
+    }
+
     const baseURL = 'https://secure.mercado.carrefour.com.br/checkout/cart/add?';
     const params = cartItems.map((item) => 
       `sku=${item.items[0]?.itemId}&qty=1&seller=1&sc=2&price=${item.items[0]?.sellers[0]?.commertialOffer?.Price}&cv=_`
