@@ -14,7 +14,12 @@ function App() {
 
   return (
     <div className="App">
-      <Header cartCount={cartCount} cartItems={cartItems} />
+      <Header 
+        cartCount={cartCount} 
+        cartItems={cartItems} 
+        setCartCount={setCartCount} 
+        setCartItems={setCartItems} 
+      />
       <Content addToCart={addToCart} />
       <Footer />
     </div>

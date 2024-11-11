@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ProductList({ products }) {
+export default function ProductList({ products, addToCart }) {
   return (
     <div className="product-list">
       {products.length > 0 ? (
@@ -23,14 +23,10 @@ export default function ProductList({ products }) {
             {product.items[0]?.sellers[0]?.AvailableQuantity > 0 && (
               <p><strong>Em estoque</strong></p>
             )}
-            {/* Link para adicionar ao carrinho */}
-            <a 
-              href={product.items[0]?.sellers[0]?.addToCartLink} 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
+            {/* Botão para adicionar ao carrinho */}
+            <button onClick={() => addToCart(product)}>
               Adicionar ao carrinho
-            </a>
+            </button>
           </div>
         ))
       ) : (

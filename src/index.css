@@ -154,15 +154,16 @@ button {
 
 .product-item button {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #0056b3;
   color: white;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
 }
 
 .product-item button:hover {
-  background-color: #45a049;
+  background-color: #007bff;
 }
 
 .product-item h2 {

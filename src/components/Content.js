@@ -27,7 +27,7 @@ import MaisOfertas from '../imgs/mais-ofertas.jpg';
 // Importando o componente ProductList
 import ProductList from './ProductList';
 
-export default function Content() {
+export default function Content({ addToCart }) {
   const item = [
     <img className="imgs" src={LeiteCondensado} alt="leite condensado" />,
     <img className="imgs" src={Azeites} alt="azeites" />,
@@ -120,7 +120,7 @@ export default function Content() {
         {loading ? (
           <p>Carregando...</p>
         ) : (
-          <ProductList products={products} />
+          <ProductList products={products} addToCart={addToCart} />
         )}
 
         {/* Controles de Paginação */}
