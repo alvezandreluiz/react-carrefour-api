@@ -1,4 +1,21 @@
 import React from 'react'
+
+import Mastercard from '../imgs/mastercard-logo.png'
+import Visa from '../imgs/visa-logo.png';
+import Elo from '../imgs/elo-logo.png';
+import Hipercard from '../imgs/hipercard-logo.png';
+import CartaoCarrefour from '../imgs/cartao-carrefour-logo.png';
+import Diners from '../imgs/diners-logo.png';
+import AmericanExpress from '../imgs/american-express-logo.png';
+import VisaCheckout from '../imgs/visa-checkout-logo.png';
+import Itau from '../imgs/itau-logo.png';
+import Bradesco from '../imgs/bradesco-logo.png';
+import Santander from '../imgs/santander-logo.png';
+import Nubank from '../imgs/nubank-logo.png';
+import Original from '../imgs/original-logo.png';
+import C6Bank from '../imgs/c6bank-logo.png';
+import BancoInter from '../imgs/banco-inter-logo.png';
+
 import Facebook from '../imgs/facebook.png'
 import Twitter from '../imgs/twitter.png'
 import Instagram from '../imgs/instagram.png'
@@ -11,21 +28,21 @@ const Footer = () => {
       <div className='footer-logos'>
         <div className='footer-formas-pagamento'>
           <p>Formas de pagamento</p>
-          <img src="/imgs/mastercard-logo.png" alt=""></img>
-          <img src="/imgs/visa-logo.png" alt=""></img>
-          <img src="imgs/elo-logo.png" alt=""></img>
-          <img src="/imgs/hipercard-logo.png" alt=""></img>
-          <img src="/imgs/cartao-carrefour-logo.png" alt=""></img>
-          <img src="/imgs/diners-logo.png" alt=""></img>
-          <img src="/imgs/american-express-logo.png" alt=""></img>
-          <img src="imgs/visa-checkout-logo.png" alt=""></img>
-          <img src="/imgs/itau-logo.png" alt=""></img>
-          <img src="/imgs/bradesco-logo.png" alt=""></img>
-          <img src="/imgs/santander-logo.png" width="34px" height="33vh" alt=""></img>
-          <img src="/imgs/nubank-logo.png" alt=""></img>
-          <img src="imgs/original-logo.png" width="35px" height="33vh" alt=""></img>
-          <img src="/imgs/c6bank-logo.png" alt=""></img>
-          <img src="/imgs/banco-inter-logo.png" alt=""></img>
+          <img src={Mastercard} alt="Mastercard"></img>
+          <img src={Visa} alt="Visa"></img>
+          <img src={Elo} alt="Elo"></img>
+          <img src={Hipercard} alt="Hipercard"></img>
+          <img src={CartaoCarrefour} alt="Cartão Carrefour"></img>
+          <img src={Diners} alt="Diners"></img>
+          <img src={AmericanExpress} alt="American Express"></img>
+          <img src={VisaCheckout} alt="Visa Checkout"></img>
+          <img src={Itau} alt="Itaú"></img>
+          <img src={Bradesco} alt="Bradesco"></img>
+          <img src={Santander} alt="Santander"></img>
+          <img src={Nubank} alt="Nubank"></img>
+          <img src={Original} alt="Original"></img>
+          <img src={C6Bank} alt="C6 Bank"></img>
+          <img src={BancoInter} alt="Banco Inter"></img>
         </div>
         <div className='footer-redes-sociais'>
           <p>Siga-nos nas redes sociais</p>

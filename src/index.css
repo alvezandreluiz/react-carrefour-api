@@ -315,7 +315,11 @@ footer {
 }
 
 .footer-logos img {
-  padding: 2px;
+  padding: 1px;
+  min-width: 33px;
+  max-width: 58px;
+  min-height: 33px;
+  max-height: 33px;
 }
 
 .footer-formas-pagamento{
