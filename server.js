@@ -11,9 +11,9 @@ app.use(cors({
   origin: 'http://localhost:3000' // Permitir apenas requisições do frontend
 }));
 
-// Configuração dos cabeçalhos da requisição
-const appKey = 'vtexappkey-carrefourbr-PZLYPS';  // Substitua com a sua chave
-const appToken = 'UTARJONVBFAYJEOZGNAUZIRIFLMBNUVOOLWNTLIORNRCMGSIVEQFCTNNYOXYGHPUYEVLDHUVPKUHHBDOZPBKMOKGRITGDBXVQBDESIDQJWDANEZSIQVGSCZVEVPLCJVC';  // Substitua com seu token
+// Configuração dos cabeçalhos da requisição, caso necessário
+const appKey = '';  // Inclua a sua chave
+const appToken = '';  // Inclua o seu token
 
 // Endpoint para buscar produtos
 app.get('/api/products', async (req, res) => {
