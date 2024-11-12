@@ -28,35 +28,35 @@ const Footer = () => {
       <div className='footer-logos'>
         <div className='footer-formas-pagamento'>
           <p>Formas de pagamento</p>
-          <img src={Mastercard} alt="Mastercard"></img>
-          <img src={Visa} alt="Visa"></img>
-          <img src={Elo} alt="Elo"></img>
-          <img src={Hipercard} alt="Hipercard"></img>
-          <img src={CartaoCarrefour} alt="Cartão Carrefour"></img>
-          <img src={Diners} alt="Diners"></img>
-          <img src={AmericanExpress} alt="American Express"></img>
-          <img src={VisaCheckout} alt="Visa Checkout"></img>
-          <img src={Itau} alt="Itaú"></img>
-          <img src={Bradesco} alt="Bradesco"></img>
-          <img src={Santander} alt="Santander"></img>
-          <img src={Nubank} alt="Nubank"></img>
-          <img src={Original} alt="Original"></img>
-          <img src={C6Bank} alt="C6 Bank"></img>
-          <img src={BancoInter} alt="Banco Inter"></img>
+          <img src={Mastercard} alt="Mastercard" />
+          <img src={Visa} alt="Visa" />
+          <img src={Elo} alt="Elo" />
+          <img src={Hipercard} alt="Hipercard" />
+          <img src={CartaoCarrefour} alt="Cartão Carrefour" />
+          <img src={Diners} alt="Diners" />
+          <img src={AmericanExpress} alt="American Express" />
+          <img src={VisaCheckout} alt="Visa Checkout" />
+          <img src={Itau} alt="Itaú" />
+          <img src={Bradesco} alt="Bradesco" />
+          <img src={Santander} alt="Santander" />
+          <img src={Nubank} alt="Nubank" />
+          <img src={Original} alt="Original" />
+          <img src={C6Bank} alt="C6 Bank" />
+          <img src={BancoInter} alt="Banco Inter" />
         </div>
         <div className='footer-redes-sociais'>
           <p>Siga-nos nas redes sociais</p>
           <a href="https://www.facebook.com/CarrefourBR" aria-label="Facebook" target="_blank" rel="noreferrer">
-            <img src={Facebook} alt=""></img>
+            <img src={Facebook} alt="" />
           </a>
           <a href="https://twitter.com/carrefourbrasil" aria-label="Twitter" target="_blank" rel="noreferrer">
-            <img src={Twitter} alt=""></img>
+            <img src={Twitter} alt="" />
           </a>
           <a href="https://www.instagram.com/carrefourbrasil/" aria-label="Instagram" target="_blank" rel="noreferrer">
-            <img src={Instagram} alt=""></img>
+            <img src={Instagram} alt="" />
           </a>
           <a href="https://www.youtube.com/channel/UCl5GhSLpPVmrqMJkIAhbedQ" aria-label="Youtube" target="_blank" rel="noreferrer">
-            <img src={Youtube} alt=""></img>
+            <img src={Youtube} alt="" />
           </a>
         </div>
       </div>

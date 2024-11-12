@@ -38,20 +38,24 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo-carrefour {
   display: flex;
   align-items: center;
-  flex-basis: 50%;
   padding: 5px;
+  flex: 1;
 }
 
 .logo-shop-cart {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
-  flex-basis: 50%;
   padding: 5px;
+  flex: 1;
 }
 
 .empty-shop-cart {
@@ -91,6 +95,7 @@ main {
   width: 80%;
   margin: auto;
   padding: 5px 5px;
+  margin-top: 1px;
   display: flexbox;
 }
 
@@ -131,7 +136,7 @@ button {
   gap: 16px;
   margin-top: 20px;
   max-width: 100%;
-  grid-auto-rows: 1fr;
+  grid-auto-rows: auto;
 }
 
 .product-item {
@@ -304,8 +309,9 @@ footer {
 
 .footer-logos {
   display: flex;
-  flex-direction: row;
   gap: 10px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer-logos p {
@@ -317,7 +323,7 @@ footer {
 .footer-logos img {
   padding: 1px;
   min-width: 33px;
-  max-width: 58px;
+  max-width: 100px;
   min-height: 33px;
   max-height: 33px;
 }
@@ -325,6 +331,7 @@ footer {
 .footer-formas-pagamento{
   flex-basis: 38%;
   padding: 10px;
+  text-align: left;
 }
 
 .footer-redes-sociais{
@@ -351,4 +358,33 @@ footer {
 .footer-contatos a{
   text-decoration: none;
   color: #2250B5;
+}
+
+/* Tornar outras seções responsivas */
+@media (max-width: 768px) {
+  .App {
+    width: 95%;
+  }
+
+  .main, main {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .product-item h2 {
+    font-size: 14px;
+  }
+
+  .product-item p {
+    font-size: 14px;
+  }
+
+  .product-item button, .product-item a {
+    padding: 8px 12px;
+  }
+
+  .page-title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
 }
