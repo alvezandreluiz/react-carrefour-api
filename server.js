@@ -6,10 +6,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Habilitar CORS para todas as origens (pode restringir para localhost:3000 se preferir)
-//app.use(cors());
-app.use(cors({
-  origin: 'http://localhost:3000' // Permitir apenas requisições do frontend
-}));
+app.use(cors());
+//app.use(cors({
+//origin: 'http://localhost:3000' // Permitir apenas requisições do frontend
+//}));
 
 // Configuração dos cabeçalhos da requisição, caso necessário
 const appKey = '';  // Inclua a sua chave
