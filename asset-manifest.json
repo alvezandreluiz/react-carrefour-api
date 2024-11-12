@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-carrefour-api/static/css/main.ff0d9a7d.css",
+    "main.js": "/react-carrefour-api/static/js/main.34f3cdd7.js",
+    "static/media/leite-condensado.gif": "/react-carrefour-api/static/media/leite-condensado.0cf89272ccc3dd7cf732.gif",
+    "static/media/pizza.gif": "/react-carrefour-api/static/media/pizza.a3349a6be511e0f086c4.gif",
+    "static/media/queijos-e-vinhos.png": "/react-carrefour-api/static/media/queijos-e-vinhos.5c9184941e370266f283.png",
+    "static/media/mais-ofertas.jpg": "/react-carrefour-api/static/media/mais-ofertas.314832f4f28e43badf8a.jpg",
+    "static/media/produtos-carrefour.jpg": "/react-carrefour-api/static/media/produtos-carrefour.e330e9b8cf2ed43796c7.jpg",
+    "static/media/ofertas.jpg": "/react-carrefour-api/static/media/ofertas.b24c4c4482a069b6eed8.jpg",
+    "static/media/pepsico.jpg": "/react-carrefour-api/static/media/pepsico.d851f69d0e3db4403fa6.jpg",
+    "static/media/fondue.jpg": "/react-carrefour-api/static/media/fondue.995990f31ea20e2871f0.jpg",
+    "static/media/carnes-para-churrasco.webp": "/react-carrefour-api/static/media/carnes-para-churrasco.936529b19647c395406b.webp",
+    "static/media/cervejas-em-oferta.jpg": "/react-carrefour-api/static/media/cervejas-em-oferta.7f6fe15034d02c9dbcfe.jpg",
+    "static/media/azeites.jpg": "/react-carrefour-api/static/media/azeites.3a63a86813f38c7f02fb.jpg",
+    "static/media/click-e-retire.gif": "/react-carrefour-api/static/media/click-e-retire.9caa129c5c5c0812ebbb.gif",
+    "static/media/bud.jpg": "/react-carrefour-api/static/media/bud.4bd01c44b1a020837990.jpg",
+    "static/media/drinks.jpg": "/react-carrefour-api/static/media/drinks.6990fba4fd1969925eb9.jpg",
+    "static/media/lacta.jpg": "/react-carrefour-api/static/media/lacta.d0ab83816553bef5863a.jpg",
+    "static/media/cart.svg": "/react-carrefour-api/static/media/cart.8fbfe093949dbbe03247e1bae096a834.svg",
+    "index.html": "/react-carrefour-api/index.html",
+    "main.ff0d9a7d.css.map": "/react-carrefour-api/static/css/main.ff0d9a7d.css.map",
+    "main.34f3cdd7.js.map": "/react-carrefour-api/static/js/main.34f3cdd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff0d9a7d.css",
+    "static/js/main.34f3cdd7.js"
+  ]
+}
