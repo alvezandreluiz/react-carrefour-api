@@ -54,12 +54,17 @@ export default function Content({ addToCart }) {
 
   const productsPerPage = 10;
 
+  // Mude para 'development' para testar o frontend com os backend local ou remoto
+  const API_URL = process.env.NODE_ENV === 'production'
+    ? 'https://react-carrefour-backend.onrender.com/api/products' 
+    : 'http://localhost:5000/api/products';
+  
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/products?page=${currentPage}&limit=${productsPerPage}`);
+        const response = await axios.get(`${API_URL}?page=${currentPage}&limit=${productsPerPage}`);
 
-        //console.log('Dados recebidos da API:', response.data);
+        console.log('Dados recebidos da API:', response.data);
 
         setProducts(response.data.products);
         setTotalPages(response.data.totalPages); // Total de páginas da resposta da API
@@ -72,7 +77,7 @@ export default function Content({ addToCart }) {
     };
 
     fetchProducts(); // Chama a função dentro do useEffect
-  }, [currentPage, productsPerPage]); // Adicionamos apenas dependências necessárias
+  }, [currentPage, productsPerPage, API_URL]); // Adicionamos apenas dependências necessárias
 
   const nextPage = () => {
     if (currentPage < totalPages) {
