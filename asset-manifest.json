@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-carrefour-api/static/css/main.ff0d9a7d.css",
-    "main.js": "/react-carrefour-api/static/js/main.04504e87.js",
+    "main.js": "/react-carrefour-api/static/js/main.1e118a81.js",
     "static/media/leite-condensado.gif": "/react-carrefour-api/static/media/leite-condensado.0cf89272ccc3dd7cf732.gif",
     "static/media/pizza.gif": "/react-carrefour-api/static/media/pizza.a3349a6be511e0f086c4.gif",
     "static/media/queijos-e-vinhos.png": "/react-carrefour-api/static/media/queijos-e-vinhos.5c9184941e370266f283.png",
@@ -20,10 +20,10 @@
     "static/media/cart.svg": "/react-carrefour-api/static/media/cart.8fbfe093949dbbe03247e1bae096a834.svg",
     "index.html": "/react-carrefour-api/index.html",
     "main.ff0d9a7d.css.map": "/react-carrefour-api/static/css/main.ff0d9a7d.css.map",
-    "main.04504e87.js.map": "/react-carrefour-api/static/js/main.04504e87.js.map"
+    "main.1e118a81.js.map": "/react-carrefour-api/static/js/main.1e118a81.js.map"
   },
   "entrypoints": [
     "static/css/main.ff0d9a7d.css",
-    "static/js/main.04504e87.js"
+    "static/js/main.1e118a81.js"
   ]
 }
