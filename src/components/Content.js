@@ -64,7 +64,7 @@ export default function Content({ addToCart }) {
       try {
         const response = await axios.get(`${API_URL}?page=${currentPage}&limit=${productsPerPage}`);
 
-        console.log('Dados recebidos da API:', response.data);
+        //console.log('Dados recebidos da API:', response.data);
 
         setProducts(response.data.products);
         setTotalPages(response.data.totalPages); // Total de páginas da resposta da API
