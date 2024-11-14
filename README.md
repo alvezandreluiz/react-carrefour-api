@@ -42,11 +42,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Ghpages
+### Ghpages
 
 Install `npm i --save gh-pages` to add it to your project.
 
 Run `npm run deploy` to build and publish the project on GitHub Pages in a single command.
+
+## Branches
+
+### We have 3 branches in the project
+
+### Main
+
+Complete project (Frontend and Backend).
+
+### Master
+
+Backend published on render.com.
+
+### Gh-pages
+
+Frontend published on GitHub Pages.
 
 ## Learn More
 
